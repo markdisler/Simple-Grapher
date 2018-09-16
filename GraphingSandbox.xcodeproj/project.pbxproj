@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D012A451F1187F800CFC52E /* CCInputField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D012A441F1187F800CFC52E /* CCInputField.m */; };
+		4D012A481F118CF800CFC52E /* NSString+Refined.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D012A471F118CF800CFC52E /* NSString+Refined.m */; };
+		4DB25BBF1F0F379C00AA6D17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB25BBE1F0F379C00AA6D17 /* main.m */; };
+		4DB25BC21F0F379C00AA6D17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB25BC11F0F379C00AA6D17 /* AppDelegate.m */; };
+		4DB25BC51F0F379C00AA6D17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB25BC41F0F379C00AA6D17 /* ViewController.m */; };
+		4DB25BC81F0F379C00AA6D17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25BC61F0F379C00AA6D17 /* Main.storyboard */; };
+		4DB25BCA1F0F379C00AA6D17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25BC91F0F379C00AA6D17 /* Assets.xcassets */; };
+		4DB25BCD1F0F379C00AA6D17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB25BCB1F0F379C00AA6D17 /* LaunchScreen.storyboard */; };
+		4DB25BE11F0F382600AA6D17 /* CCGraphableFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB25BDB1F0F382600AA6D17 /* CCGraphableFunction.m */; };
+		4DB25BE31F0F382600AA6D17 /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB25BE01F0F382600AA6D17 /* GraphView.m */; };
+		4DB25BF71F0F383300AA6D17 /* CCExpressionBreakdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB25BE61F0F383300AA6D17 /* CCExpressionBreakdown.m */; };
+		4DB25BF81F0F383300AA6D17 /* CCExpressionParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB25BE81F0F383300AA6D17 /* CCExpressionParser.m */; };
+		4DB25BF91F0F383300AA6D17 /* CCExtendedFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB25BEA1F0F383300AA6D17 /* CCExtendedFunctions.m */; };
+		4DB25BFA1F0F383300AA6D17 /* CCFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB25BEC1F0F383300AA6D17 /* CCFunctions.m */; };
+		4DB25BFB1F0F383300AA6D17 /* FunctionLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB25BEE1F0F383300AA6D17 /* FunctionLibrary.m */; };
+		4DB25BFC1F0F383300AA6D17 /* MDParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB25BF01F0F383300AA6D17 /* MDParser.m */; };
+		4DB25BFD1F0F383300AA6D17 /* MDParserHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB25BF21F0F383300AA6D17 /* MDParserHelper.m */; };
+		4DB25BFE1F0F383300AA6D17 /* MDReplacement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB25BF41F0F383300AA6D17 /* MDReplacement.m */; };
+		4DB25BFF1F0F383300AA6D17 /* TrigFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB25BF61F0F383300AA6D17 /* TrigFunctions.m */; };
+		4DE6C3AE1F118E0B00AEF531 /* UIColor+CCColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE6C3AD1F118E0B00AEF531 /* UIColor+CCColors.m */; };
+		4DE6C3B11F11951200AEF531 /* CCKeypad.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE6C3B01F11951200AEF531 /* CCKeypad.m */; };
+		4DE6C3B41F11952A00AEF531 /* MCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE6C3B31F11952A00AEF531 /* MCButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D012A431F1187F800CFC52E /* CCInputField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCInputField.h; sourceTree = "<group>"; };
+		4D012A441F1187F800CFC52E /* CCInputField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCInputField.m; sourceTree = "<group>"; };
+		4D012A461F118CF800CFC52E /* NSString+Refined.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Refined.h"; sourceTree = "<group>"; };
+		4D012A471F118CF800CFC52E /* NSString+Refined.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Refined.m"; sourceTree = "<group>"; };
+		4DB25BBA1F0F379C00AA6D17 /* GraphingSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphingSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB25BBE1F0F379C00AA6D17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DB25BC01F0F379C00AA6D17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DB25BC11F0F379C00AA6D17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DB25BC31F0F379C00AA6D17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DB25BC41F0F379C00AA6D17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4DB25BC71F0F379C00AA6D17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DB25BC91F0F379C00AA6D17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DB25BCC1F0F379C00AA6D17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DB25BCE1F0F379C00AA6D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB25BDA1F0F382600AA6D17 /* CCGraphableFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCGraphableFunction.h; sourceTree = "<group>"; };
+		4DB25BDB1F0F382600AA6D17 /* CCGraphableFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCGraphableFunction.m; sourceTree = "<group>"; };
+		4DB25BDF1F0F382600AA6D17 /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		4DB25BE01F0F382600AA6D17 /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
+		4DB25BE51F0F383300AA6D17 /* CCExpressionBreakdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCExpressionBreakdown.h; sourceTree = "<group>"; };
+		4DB25BE61F0F383300AA6D17 /* CCExpressionBreakdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCExpressionBreakdown.m; sourceTree = "<group>"; };
+		4DB25BE71F0F383300AA6D17 /* CCExpressionParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCExpressionParser.h; sourceTree = "<group>"; };
+		4DB25BE81F0F383300AA6D17 /* CCExpressionParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCExpressionParser.m; sourceTree = "<group>"; };
+		4DB25BE91F0F383300AA6D17 /* CCExtendedFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCExtendedFunctions.h; sourceTree = "<group>"; };
+		4DB25BEA1F0F383300AA6D17 /* CCExtendedFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCExtendedFunctions.m; sourceTree = "<group>"; };
+		4DB25BEB1F0F383300AA6D17 /* CCFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFunctions.h; sourceTree = "<group>"; };
+		4DB25BEC1F0F383300AA6D17 /* CCFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFunctions.m; sourceTree = "<group>"; };
+		4DB25BED1F0F383300AA6D17 /* FunctionLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionLibrary.h; sourceTree = "<group>"; };
+		4DB25BEE1F0F383300AA6D17 /* FunctionLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionLibrary.m; sourceTree = "<group>"; };
+		4DB25BEF1F0F383300AA6D17 /* MDParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDParser.h; sourceTree = "<group>"; };
+		4DB25BF01F0F383300AA6D17 /* MDParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDParser.m; sourceTree = "<group>"; };
+		4DB25BF11F0F383300AA6D17 /* MDParserHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDParserHelper.h; sourceTree = "<group>"; };
+		4DB25BF21F0F383300AA6D17 /* MDParserHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDParserHelper.m; sourceTree = "<group>"; };
+		4DB25BF31F0F383300AA6D17 /* MDReplacement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDReplacement.h; sourceTree = "<group>"; };
+		4DB25BF41F0F383300AA6D17 /* MDReplacement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDReplacement.m; sourceTree = "<group>"; };
+		4DB25BF51F0F383300AA6D17 /* TrigFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrigFunctions.h; sourceTree = "<group>"; };
+		4DB25BF61F0F383300AA6D17 /* TrigFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrigFunctions.m; sourceTree = "<group>"; };
+		4DE6C3AC1F118E0B00AEF531 /* UIColor+CCColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CCColors.h"; sourceTree = "<group>"; };
+		4DE6C3AD1F118E0B00AEF531 /* UIColor+CCColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CCColors.m"; sourceTree = "<group>"; };
+		4DE6C3AF1F11951200AEF531 /* CCKeypad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCKeypad.h; sourceTree = "<group>"; };
+		4DE6C3B01F11951200AEF531 /* CCKeypad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCKeypad.m; sourceTree = "<group>"; };
+		4DE6C3B21F11952A00AEF531 /* MCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCButton.h; sourceTree = "<group>"; };
+		4DE6C3B31F11952A00AEF531 /* MCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DB25BB71F0F379C00AA6D17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DB25BB11F0F379C00AA6D17 = {
+			isa = PBXGroup;
+			children = (
+				4DB25BBC1F0F379C00AA6D17 /* GraphingSandbox */,
+				4DB25BBB1F0F379C00AA6D17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DB25BBB1F0F379C00AA6D17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DB25BBA1F0F379C00AA6D17 /* GraphingSandbox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DB25BBC1F0F379C00AA6D17 /* GraphingSandbox */ = {
+			isa = PBXGroup;
+			children = (
+				4DB25BD41F0F37B000AA6D17 /* App Delegate */,
+				4DB25BD51F0F37BA00AA6D17 /* View Controller */,
+				4DB25BD81F0F382600AA6D17 /* Grapher */,
+				4DB25C001F0F385100AA6D17 /* Misc */,
+				4DB25BE41F0F383300AA6D17 /* Equation Parser */,
+				4DB25BC61F0F379C00AA6D17 /* Main.storyboard */,
+				4DB25BC91F0F379C00AA6D17 /* Assets.xcassets */,
+				4DB25BCB1F0F379C00AA6D17 /* LaunchScreen.storyboard */,
+				4DB25BCE1F0F379C00AA6D17 /* Info.plist */,
+				4DB25BBD1F0F379C00AA6D17 /* Supporting Files */,
+			);
+			path = GraphingSandbox;
+			sourceTree = "<group>";
+		};
+		4DB25BBD1F0F379C00AA6D17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DB25BBE1F0F379C00AA6D17 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DB25BD41F0F37B000AA6D17 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4DB25BC01F0F379C00AA6D17 /* AppDelegate.h */,
+				4DB25BC11F0F379C00AA6D17 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		4DB25BD51F0F37BA00AA6D17 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4DB25BC31F0F379C00AA6D17 /* ViewController.h */,
+				4DB25BC41F0F379C00AA6D17 /* ViewController.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		4DB25BD81F0F382600AA6D17 /* Grapher */ = {
+			isa = PBXGroup;
+			children = (
+				4DB25BD91F0F382600AA6D17 /* Objects */,
+				4DB25BDC1F0F382600AA6D17 /* Views */,
+			);
+			path = Grapher;
+			sourceTree = "<group>";
+		};
+		4DB25BD91F0F382600AA6D17 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				4DB25BDA1F0F382600AA6D17 /* CCGraphableFunction.h */,
+				4DB25BDB1F0F382600AA6D17 /* CCGraphableFunction.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		4DB25BDC1F0F382600AA6D17 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4DB25BDF1F0F382600AA6D17 /* GraphView.h */,
+				4DB25BE01F0F382600AA6D17 /* GraphView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4DB25BE41F0F383300AA6D17 /* Equation Parser */ = {
+			isa = PBXGroup;
+			children = (
+				4D012A461F118CF800CFC52E /* NSString+Refined.h */,
+				4D012A471F118CF800CFC52E /* NSString+Refined.m */,
+				4DB25BE51F0F383300AA6D17 /* CCExpressionBreakdown.h */,
+				4DB25BE61F0F383300AA6D17 /* CCExpressionBreakdown.m */,
+				4DB25BE71F0F383300AA6D17 /* CCExpressionParser.h */,
+				4DB25BE81F0F383300AA6D17 /* CCExpressionParser.m */,
+				4DB25BE91F0F383300AA6D17 /* CCExtendedFunctions.h */,
+				4DB25BEA1F0F383300AA6D17 /* CCExtendedFunctions.m */,
+				4DB25BEB1F0F383300AA6D17 /* CCFunctions.h */,
+				4DB25BEC1F0F383300AA6D17 /* CCFunctions.m */,
+				4DB25BED1F0F383300AA6D17 /* FunctionLibrary.h */,
+				4DB25BEE1F0F383300AA6D17 /* FunctionLibrary.m */,
+				4DB25BEF1F0F383300AA6D17 /* MDParser.h */,
+				4DB25BF01F0F383300AA6D17 /* MDParser.m */,
+				4DB25BF11F0F383300AA6D17 /* MDParserHelper.h */,
+				4DB25BF21F0F383300AA6D17 /* MDParserHelper.m */,
+				4DB25BF31F0F383300AA6D17 /* MDReplacement.h */,
+				4DB25BF41F0F383300AA6D17 /* MDReplacement.m */,
+				4DB25BF51F0F383300AA6D17 /* TrigFunctions.h */,
+				4DB25BF61F0F383300AA6D17 /* TrigFunctions.m */,
+			);
+			path = "Equation Parser";
+			sourceTree = "<group>";
+		};
+		4DB25C001F0F385100AA6D17 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				4DE6C3AF1F11951200AEF531 /* CCKeypad.h */,
+				4DE6C3B01F11951200AEF531 /* CCKeypad.m */,
+				4DE6C3B21F11952A00AEF531 /* MCButton.h */,
+				4DE6C3B31F11952A00AEF531 /* MCButton.m */,
+				4DE6C3AC1F118E0B00AEF531 /* UIColor+CCColors.h */,
+				4DE6C3AD1F118E0B00AEF531 /* UIColor+CCColors.m */,
+				4D012A431F1187F800CFC52E /* CCInputField.h */,
+				4D012A441F1187F800CFC52E /* CCInputField.m */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DB25BB91F0F379C00AA6D17 /* GraphingSandbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB25BD11F0F379C00AA6D17 /* Build configuration list for PBXNativeTarget "GraphingSandbox" */;
+			buildPhases = (
+				4DB25BB61F0F379C00AA6D17 /* Sources */,
+				4DB25BB71F0F379C00AA6D17 /* Frameworks */,
+				4DB25BB81F0F379C00AA6D17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphingSandbox;
+			productName = GraphingSandbox;
+			productReference = 4DB25BBA1F0F379C00AA6D17 /* GraphingSandbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DB25BB21F0F379C00AA6D17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Mark;
+				TargetAttributes = {
+					4DB25BB91F0F379C00AA6D17 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5Y496X3RDW;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4DB25BB51F0F379C00AA6D17 /* Build configuration list for PBXProject "GraphingSandbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DB25BB11F0F379C00AA6D17;
+			productRefGroup = 4DB25BBB1F0F379C00AA6D17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DB25BB91F0F379C00AA6D17 /* GraphingSandbox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DB25BB81F0F379C00AA6D17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB25BCD1F0F379C00AA6D17 /* LaunchScreen.storyboard in Resources */,
+				4DB25BCA1F0F379C00AA6D17 /* Assets.xcassets in Resources */,
+				4DB25BC81F0F379C00AA6D17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DB25BB61F0F379C00AA6D17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB25BC51F0F379C00AA6D17 /* ViewController.m in Sources */,
+				4D012A481F118CF800CFC52E /* NSString+Refined.m in Sources */,
+				4DB25BFE1F0F383300AA6D17 /* MDReplacement.m in Sources */,
+				4DB25BF91F0F383300AA6D17 /* CCExtendedFunctions.m in Sources */,
+				4D012A451F1187F800CFC52E /* CCInputField.m in Sources */,
+				4DB25BFF1F0F383300AA6D17 /* TrigFunctions.m in Sources */,
+				4DB25BFD1F0F383300AA6D17 /* MDParserHelper.m in Sources */,
+				4DE6C3B11F11951200AEF531 /* CCKeypad.m in Sources */,
+				4DE6C3AE1F118E0B00AEF531 /* UIColor+CCColors.m in Sources */,
+				4DB25BC21F0F379C00AA6D17 /* AppDelegate.m in Sources */,
+				4DB25BFC1F0F383300AA6D17 /* MDParser.m in Sources */,
+				4DB25BF81F0F383300AA6D17 /* CCExpressionParser.m in Sources */,
+				4DB25BE11F0F382600AA6D17 /* CCGraphableFunction.m in Sources */,
+				4DE6C3B41F11952A00AEF531 /* MCButton.m in Sources */,
+				4DB25BE31F0F382600AA6D17 /* GraphView.m in Sources */,
+				4DB25BF71F0F383300AA6D17 /* CCExpressionBreakdown.m in Sources */,
+				4DB25BFA1F0F383300AA6D17 /* CCFunctions.m in Sources */,
+				4DB25BFB1F0F383300AA6D17 /* FunctionLibrary.m in Sources */,
+				4DB25BBF1F0F379C00AA6D17 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DB25BC61F0F379C00AA6D17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DB25BC71F0F379C00AA6D17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DB25BCB1F0F379C00AA6D17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DB25BCC1F0F379C00AA6D17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DB25BCF1F0F379C00AA6D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DB25BD01F0F379C00AA6D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DB25BD21F0F379C00AA6D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Y496X3RDW;
+				INFOPLIST_FILE = GraphingSandbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.markdisler.GraphingSandbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DB25BD31F0F379C00AA6D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Y496X3RDW;
+				INFOPLIST_FILE = GraphingSandbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.markdisler.GraphingSandbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DB25BB51F0F379C00AA6D17 /* Build configuration list for PBXProject "GraphingSandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB25BCF1F0F379C00AA6D17 /* Debug */,
+				4DB25BD01F0F379C00AA6D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DB25BD11F0F379C00AA6D17 /* Build configuration list for PBXNativeTarget "GraphingSandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB25BD21F0F379C00AA6D17 /* Debug */,
+				4DB25BD31F0F379C00AA6D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DB25BB21F0F379C00AA6D17 /* Project object */;
+}
